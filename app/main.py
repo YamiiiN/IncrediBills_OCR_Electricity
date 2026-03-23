@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from app.route import ocr_water, ocr_transport_fuel, ocr_kitchen_gas, ocr_grocery, ocr_electricity, ocr_miscellaneous
+from app.route import ocr_electricity
 
 app = FastAPI(title="IncrediBills OCR API")
 
